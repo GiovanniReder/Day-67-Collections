@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main2 {
     public static void main(String[] args) {
-        /*
+/*
         System.out.println("------------------ES1----------------------");
         Scanner sc = new Scanner(System.in);
         System.out.println("Inserisci un numero N che indica quanti elementi vuoi inserire");
@@ -20,7 +20,7 @@ public class Main2 {
         System.out.println(parole);
         sc.close();
 */
-/*
+
         System.out.println("------------------ES2----------------------");
 
         Scanner sc2 = new Scanner(System.in);
@@ -37,12 +37,12 @@ public class Main2 {
         System.out.println(listNumeri.reversed());
         System.out.println("Se vuoi stampare i valori con indice pari scrivi true, per quelli dispari scrivi false");
         boolean booleano= sc2.nextBoolean();
-        for (int i = 0; i < listNumeri.size() ; i++) {
+       /* if (booleano == true) {
 
-        }
+        } else */
         sc2.close();
-*/
-        System.out.println("------------------ES3----------------------");
+
+  /*      System.out.println("------------------ES3----------------------");
 
         Map<String, Integer> rubrica = new HashMap<>();
         // crea
@@ -60,6 +60,8 @@ rubrica.put("hunziker", 444444);
         System.out.println(rubrica.get("velina"));
         //stampa totale
         System.out.println(rubrica);
+
+   */
     }
 }
 /*
