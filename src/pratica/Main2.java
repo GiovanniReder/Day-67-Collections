@@ -20,7 +20,7 @@ public class Main2 {
         System.out.println(parole);
         sc.close();
 */
-
+/*
         System.out.println("------------------ES2----------------------");
 
         Scanner sc2 = new Scanner(System.in);
@@ -34,16 +34,39 @@ public class Main2 {
 
         }
         System.out.println(listNumeri);
+        System.out.println(listNumeri.reversed());
+        System.out.println("Se vuoi stampare i valori con indice pari scrivi true, per quelli dispari scrivi false");
+        boolean booleano= sc2.nextBoolean();
+        for (int i = 0; i < listNumeri.size() ; i++) {
 
+        }
         sc2.close();
+*/
+        System.out.println("------------------ES3----------------------");
 
-
+        Map<String, Integer> rubrica = new HashMap<>();
+        // crea
+rubrica.put("jerry", 11111);
+rubrica.put("gabibbo", 22222);
+rubrica.put("velina", 33333);
+rubrica.put("hunziker", 444444);
+        System.out.println(rubrica);
+        // cancella
+        rubrica.remove("jerry");
+        System.out.println(rubrica);
+        // ricerca per numero
+        System.out.println(rubrica);
+       //ricerca per nome
+        System.out.println(rubrica.get("velina"));
+        //stampa totale
+        System.out.println(rubrica);
     }
 }
 /*
-* randomizza gli indici della prima lista
-*
-*
-*
-*
+* chiavi = nomi persone
+* valore =  numeri di telefono
+*inserisci la coppia
+*cancella la coppia
+*ricerca la coppia
+* stampa tutti i contatti
 * */
